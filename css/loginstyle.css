@@ -1,0 +1,104 @@
+body {
+  background-image:url(https://www.filterforge.com/filters/2419.jpg);
+}
+
+@font-face {
+  src:url(../fonts/Elevate_PersonalUse.ttf);
+  font-family:titlefont;
+}
+
+#headtitle {
+  font-family:titlefont;
+  font-size:30px;
+  margin:auto;
+  text-align:center;
+  color:#fff;
+}
+
+#loginform {
+  width:300px;
+  height:400px;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+
+#loginform [type="text"],
+#loginform [type="password"] {
+  width:280px;
+  border:0;
+  border-top:1px solid rgba(255, 255, 255, .3);
+  height:35px;
+  margin-bottom:15px;
+  box-shadow:         inset 0px 0px 4px 1px rgba(50, 50, 50, 0.75);
+  background-color:#555;
+  border-radius:4px;
+  padding:0 10px;
+}
+
+#loginform label {
+  color:#fff;
+  font-family:sans-serif;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100px;
+  background-image:url(http://www.designbolts.com/wp-content/uploads/2012/11/Awesome-Gun-metal-Black-Pattern-for-background.jpg);
+  border-top:1px solid #555;
+}
+
+#links {
+  height:48px;
+  width:400px;
+  margin:auto;
+  padding:26px 0;
+}
+
+#links a {
+  float:left;
+  margin-right:40px;
+}
+
+#links a:last-child {
+  margin:0;
+}
+
+#normlogin {
+  float:right;
+  background-color:rgb(255, 100, 0);
+  height:30px;
+  width:80px;
+  border-radius:5px;
+  font-weight:bold;
+  color:white;
+  border:0;
+  border-top:1px solid rgba(255, 255, 255, .5);
+  box-shadow:         0px 0px 0px 1px rgba(50, 50, 50, 0.75);
+  margin-left:10px;
+  cursor:pointer;
+}
+
+#guestlogin {
+  float:right;
+  background: #d2ff52;
+background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%);
+background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%);
+background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 );
+  height:30px;
+  width:110px;
+  border-radius:5px;
+  font-weight:bold;
+  color:black;
+  border:0;
+  border-top:1px solid rgba(255, 255, 255, .5);
+  box-shadow:         0px 0px 0px 1px rgba(50, 50, 50, 0.75);
+  cursor:pointer;
+}
